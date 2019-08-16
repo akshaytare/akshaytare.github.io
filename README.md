@@ -1,4 +1,9 @@
-[akshaytare.github.io](akshaytare.github.io)
+akshaytare.github.io
 
-Portfolio website
+Portfolio Website
 
+---
+
+permalink: /index.html
+
+---
