@@ -1,0 +1,227 @@
+/* FONT ROBOTO WEIGHTS
+	THIN - 100
+	LIGHT - 300
+	REGULAR - 400
+	MEDIUM - 500
+	*/
+
+/*           Universal styles 
+=================================================
+*/
+
+body{
+	font-family: 'Roboto',sans-serif;
+	
+	
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.wrap{
+	width: 1170px;
+	margin:0 auto;
+}
+
+
+
+/*           Typography
+=================================================
+*/
+h1{
+	font-size: 48px;
+	font-weight: 300;
+}
+
+h3{
+	font-size: 14px;
+	font-weight: 500;
+}
+
+h4{
+	font-size: 16px;
+	font-weight: 400;
+}
+.top-links a{
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.main-header a{
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+.footer-main li{
+	font-size:13px;
+	font-weight: 300;
+}
+
+.footer-main p{
+	font-size:12px;
+	font-weight: 300;
+}
+
+/*          Top Header
+================================================
+*/
+
+.top-header{
+	background-color: #282828;
+}
+
+.top-header-wrap{
+	padding:15px 0;
+	overflow: hidden;
+	
+}
+
+.top-header-wrap a{
+	color:#fff;
+	margin-right: 10px;
+
+}
+
+.top-icons{
+	float:left;
+}
+
+.top-links{
+	float: right;
+}
+
+.top-links li{
+	display: inline-block;
+	margin-left: 35px;
+}
+
+/*          Main Header
+================================================
+*/
+
+.main-header h1 p {
+	display: none;
+}
+
+.main-header-wrap{
+	padding:25px 0;
+	overflow: hidden;
+}
+
+
+.logo {
+	float:left;
+	margin-top:10px;
+	
+}
+
+.main-header-wrap li{
+	display: inline-block;
+	margin-left: 10px;
+	padding:10px 40px;
+
+
+}
+
+.main-header ul{
+	
+	float: right;
+}
+
+
+
+.main-header a{
+	color:#000;
+
+}
+
+li.sign-in{
+
+	border:solid 1px #5db442;
+	border-radius: 25px; /* No IE8 support */
+	-webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+}
+.sign-in a{
+	color:#5db442;
+}
+
+/*          Footer
+================================================
+*/
+
+.footer-main{
+	background: #efefef;
+}
+
+.footer-wrap{
+	padding:70px 0 60px 0;
+	overflow: hidden;
+}
+
+.footer-wrap div{
+	float:left;
+}
+
+.footer-wrap .newsletter{
+	width: 350px;
+	margin-right: 120px;
+}
+
+.footer-wrap .quick-links{
+	width: 195px;
+	margin-right: 75px;
+}
+
+.footer-wrap .legal{
+	width: 162px;
+	margin-right: 70px;
+}
+
+.footer-wrap .info{
+	width: auto;
+	margin-right: 0px;
+}
+
+.footer-main h4{
+	margin-bottom: 40px;
+}
+
+.footer-main li{
+	text-transform: uppercase;
+	margin-bottom:20px;
+}
+
+
+.newsletter p{
+	margin-bottom: 25px;
+	line-height: 200%;
+}
+
+.newsletter input[type="email"]{
+width: 273px;
+height: 43px;
+border:none;
+font-size:12px;
+font-weight: 100;
+font-style: italic;
+padding-left: 11px;
+margin: 0;
+} 
+
+.newsletter input[type="submit"]{
+	width: 57px;
+	height: 45px;
+	background-color: #5db442;
+	border:none;
+	padding:0;
+	margin-left: -4px;
+	color:#fff;
+	
+}

@@ -1,0 +1,80 @@
+/*
+poppins light - 300
+poppins bold - 700
+
+pt_serif regular - 400
+pt_serif bold - 700
+
+font-family: 'PT Serif', serif;
+font-family: 'Poppins', sans-serif;
+
+*/
+
+/*Typography 
+=======================================
+*/
+
+body{
+	font-family: 'PT Serif', serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Poppins', sans-serif;
+}
+
+.wrap{
+	width: 1170px;
+	margin:auto;
+}
+
+#top-hero{
+	background:url(../images/hero-bg.jpg) #70b100 no-repeat center;
+	height:840px;
+	color:#fff;
+}
+
+header{
+	padding-top: 36px;
+}
+
+#main-logo{
+	width: 60px;
+	height: 48px;
+	float:left;
+}
+
+nav{
+	float:right;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 20px;
+
+}
+
+nav ul li{
+	display: inline-block;
+	margin-left: 35px;
+}
+
+nav a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.hero-content{
+	width: 500px;
+	margin:260px 0 0 10px;
+}
+
+.hero-content h2{
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 52px;
+	margin-bottom: 44px;
+}
+
+.hero-content p{
+	font-size: 16px;
+	line-height: 28px;
+}

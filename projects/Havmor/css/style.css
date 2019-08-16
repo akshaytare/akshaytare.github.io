@@ -1,0 +1,171 @@
+@font-face {
+    font-family:'GothamRounded-Medium';
+    src: url(../fonts/GothamRounded-Medium.otf);
+}
+
+body{
+	font-family:'GothamRounded-Medium'; 
+	background: #063549;
+	color:#fff;
+	padding:0;
+
+}
+
+#logo{
+	position: relative;
+}
+
+#logo .diva-1{
+	position: absolute;
+}
+
+#logo .diva-2{
+	position: absolute;
+	right: 0px;
+	top:130px;
+}
+
+#logo .navbar-brand{
+	width: 378px;
+	height: 136px;
+	text-indent: -9999px;
+	background: url(../img/logo.png) no-repeat;
+}
+
+#headline{
+	padding-left: 205px;
+	overflow: hidden;
+}
+
+#headline h1{
+	font-size: 33px;
+	line-height: 42px;	
+}
+#headline img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+#headline .btn-danger{
+	background: #e8244a;
+	padding:20px 38px;
+	border:none;
+	border-radius: 0;
+}
+
+
+/*================= products ==============*/
+
+#products{
+
+	position: relative;
+	margin-top: 155px;
+	padding-bottom: 100px;
+}
+
+#products .img-1{
+	position: absolute;
+	left: 402px;
+	top:-50px;
+}
+
+#products .img-2{
+	position: absolute;
+	left: 591px;
+	top:-130px;
+}
+
+#products .img-pure-taste{
+	position: absolute;
+	left: 536px;
+	top:-130px;
+}
+
+#products .price-1{
+	position: absolute;
+	left: 315px;
+	top:50px;
+}
+
+#products .price-2{
+	position: absolute;
+	left: 900px;
+	top:50px;
+}
+
+.pink-bar{
+	width: 100%;
+	overflow: hidden;
+	height: 117px;
+	background: #e8244a;
+	z-index: -1;
+}
+
+.white-bar{
+	height: 21px;
+	background: #fff;
+	z-index: -1;
+}
+
+/*==========info==========*/
+
+#info{
+	margin-bottom: 80px;
+	position: relative;
+}
+
+#info ul{
+margin-left: 180px;
+
+}
+
+#info h3{
+	overflow: hidden;
+	font-size: 25px;
+	line-height: 35px;
+}
+
+#info a{
+	overflow: hidden;
+	margin-left: 44px;
+	margin-top:26px;
+}
+
+#info .btn-danger{
+	background: #e8244a;
+	border-radius: 0;
+	border:none;
+}
+
+#info li{
+	list-style: none;
+}
+
+
+
+#info span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	float: left;
+	margin-right: 23px;
+	margin-top:6px;
+	
+	background: #e8244a;
+}
+
+#info .diva-3{
+	position: absolute;
+	left: 0px;
+	bottom:-80px;
+	z-index: -1;
+}
+
+#info .diva-4{
+	position: absolute;
+	right: 0px;
+	bottom:-80px;
+	z-index: -1;
+}

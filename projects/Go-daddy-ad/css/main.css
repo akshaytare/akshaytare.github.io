@@ -1,0 +1,127 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white; }
+
+#mainContent {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 250px;
+  cursor: pointer;
+  border: 1px solid #010101;
+  background: #e7e6e6; }
+
+#mainContent div,
+#mainContent img {
+  position: absolute;
+  overflow: hidden; }
+
+.spriteSheet {
+  background: url(../img/sprite.png) no-repeat;
+  width: 728px; }
+
+#img1{
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  opacity: 0;
+}
+
+
+#copy1{
+  width: 139.84px;
+  height: 116.188px;
+  position: absolute;
+  background-position: -28px -22px;
+  top: 11.175px;
+  left: 24.333px; 
+  opacity: 0;
+}
+
+#copy2{
+  width: 231.735px;
+  height: 101.667px;
+  position: absolute;
+  background-position: -29px -153px;
+  top: 142.003px;
+  left: 25.809px; 
+  opacity: 0;
+}
+
+#copy3{
+  width: 174px;
+  height: 89px;
+  position: absolute;
+  background-position: -28px -272px;
+  top: 146.242px;
+  left: 54.294px; 
+  opacity: 0;
+}
+
+#img2{
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  opacity: 0;
+}
+
+#copy4{
+  width: 275px;
+  height: 102px;
+  position: absolute;
+  background-position: -19px -381px;
+  top: 139.454px;
+  left: 14.042px; 
+  opacity: 0;
+}
+
+#img3{
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  opacity: 0;
+}
+
+#copy5{
+  width: 168px;
+  height: 132px;
+  position: absolute;
+  background-position: -28px -504px;
+  top: 10px;
+  left: 0px; 
+  opacity: 0;
+}
+
+
+#copy6{
+  width: 283px;
+  height: 153px;
+  position: absolute;
+  background-position: -11px -654px;
+  top: 83.319px;
+  left: 9.232px; 
+  opacity: 0;
+}
+
+
+#cta{
+  width: 142px;
+  height: 52px;
+  position: absolute;
+  background-position: -32px -830px;
+  top: 140px;
+  left: 45px; 
+  opacity: 0;
+}
+
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,131 @@
+.portfolio{
+	background:#fff;
+	padding-top:22px;
+	overflow: hidden;
+}
+
+/* head nav */
+
+.portfolio ul.portfolio-head{
+	padding:74px;
+	text-align: center;
+}
+
+.portfolio ul.portfolio-head li{
+	display: inline-block;
+
+
+}
+
+.portfolio ul.portfolio-head a{
+	text-decoration: none;
+	color:#18242c;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+	padding:15px 20px;
+}
+
+.portfolio ul.portfolio-head a.active{
+	color:#fff;
+	background-color: #00a7d4;
+
+}
+
+/* portfolio items */
+.portfolio-items {
+	background-color: blue;
+}
+.portfolio-items .item{
+	
+	width: 50%;
+	height: 350px;
+	float:left;
+	background-color: #c4c4c4;
+	position: relative;
+
+
+
+}
+
+.portfolio-items .item img{
+margin:auto;
+max-width:100%;
+max-height:100%;
+margin:auto;
+display: block;
+position: absolute;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+
+}
+
+.item:nth-child(4n+1) {
+    background-color: #e1e1e1;
+}
+
+.item:nth-child(4n+4) {
+    background-color: #e1e1e1;
+}
+
+.item .item-info{
+	
+	width: 100%;
+	height: 350px;
+	text-align: center;
+}
+
+.item .item-info h3{
+	color:#fff;
+	font-size: 30px;
+	padding-top: 86px;
+}
+
+.item .item-info h4{
+	color:#fff;
+	font-size: 14px;
+	padding: 15px 10px 30px 10px;
+}
+
+.item .item-info h4:after{
+	content: url(../images/item-icon.png); 
+	display: block;
+	padding-top: 30px;
+}
+
+.item:hover{
+	background-color: #27add1;
+}
+
+.item:hover > img{
+	display: none;
+}
+
+/*=============================================================
+	Page switcher from numbers
+=========================================================*/
+.page-switch ul{
+	padding:25px 30px ;
+}
+.page-switch li{
+	display: inline-block;
+	padding:10px 12px;
+	background-color: #dddddd;
+	margin-left:6px;
+}
+
+.page-switch ul a {
+	text-decoration: none;
+	color:#fff;
+	font-style: 15px;
+}
+.page-switch li.active{
+	background-color: #00a7d4;
+}
+
+
+
+
+

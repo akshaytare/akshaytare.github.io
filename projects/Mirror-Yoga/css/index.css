@@ -1,0 +1,365 @@
+#main-content{
+	background: url(../images/shape-01.svg) no-repeat center;
+	background-position: top;	
+}
+
+.point-1{
+	padding-top:195px;
+}
+
+#main-content h3.point span{
+	color:#66a900;
+}
+
+#main-content h3.point .number{
+	font-family: 'PT Serif', serif;
+	font-size: 64px;
+	font-weight: 700;
+	color:#e8e8e8;
+
+}
+
+#main-content h3.point{
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 58px;
+}
+
+#main-content p{
+	font-size: 16px;
+	line-height: 30px;
+	color:#aeaeae;
+	margin-bottom: 13px;
+
+}
+
+/* point 1
+====================================*/
+
+#main-content .point-1{
+	width: 60%;
+	position: relative;
+
+
+}
+
+#main-content .point-1 img{
+	position: absolute;
+	bottom:20px;
+	right: -550px;
+	overflow: hidden;
+}
+
+
+/* point 2 
+======================================*/
+
+#main-content .point-2{
+	width: 60%;
+	position: relative;
+	margin-left: 490px;
+	margin-top:150px;
+}
+
+#main-content .point-2 img{
+	position: absolute;
+	top:-100px;
+	left:-540px;
+}
+
+#main-content .point-2 p{
+	margin-bottom: 20px;
+}
+
+#main-content .point-2 li{
+	list-style: none;
+	margin-bottom: 15px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color:#999999;
+}
+
+#main-content .point-2 ul div {
+	font-family: 'PT Serif', serif;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	background-color: #66a900;
+	border-radius: 100%;
+	color:#fff;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 45px;
+	margin-right: 17px;
+
+}
+
+
+/* register block
+=================================================
+*/
+
+.register{
+	background:url(../images/shape-02.svg) no-repeat center;
+	height: 274px;
+	color:#fff;
+	padding-top: 250px;
+}
+
+.register .wrap{
+	position: relative;
+}
+
+.register h3{
+	font-family: 'PT Serif', serif;
+	font-size:30px;
+	font-weight: 700;
+	margin-bottom: 17px;
+
+}
+
+.register p{
+	color:#fff  !important;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px  !important;
+	font-weight: 300  !important;
+	display: inline-block;
+
+}
+
+.register img{
+	position: absolute;
+	right: 360px;
+}
+
+.register .button{
+	display: inline-block;
+	background-color:#fff;
+	width: 270px;
+	height: 57px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 57px;
+	position: absolute;
+	right: 0;
+	bottom: 15px;
+
+
+}
+
+.register .button a{
+	text-decoration: none;
+	color:#66a900;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+/* register-2 
+===========================================
+*/
+
+.register-2{
+	background-image: none;
+	overflow: hidden;
+}
+
+/* point 3
+========================================================
+*/
+
+.point-3{
+	width: 60%;
+	position: relative;
+}
+
+.point-3 p{
+	margin-bottom: 70px !important;
+}
+
+
+.point-3 .features{
+	width: 45%;
+	color:#66a900;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.point-3 .features h4{
+	font-size: 18px;
+	font-weight: 700;
+	color:#000;
+	margin-bottom: 20px;
+
+}
+
+.point-3 .features p{
+	font-size: 14px !important;
+	line-height: 24px !important;
+	margin-bottom: 40px !important;
+}
+
+.point-3 .features .feature-content{
+
+	overflow: hidden;
+}
+.point-3 .features .fa{
+	margin-right: 15px;
+	float:left;
+
+}
+
+.point-3 img{
+	position: absolute;
+	bottom:20px;
+}
+
+/* point 4
+========================================================
+*/
+
+.point-4{
+	margin-top: 100px;
+	width: 45%;
+	position: relative;
+	float: right;
+}
+
+.point-4 img{
+	position: absolute;
+	bottom:35px;
+	right:800px;
+}
+
+.point-4  .quote{
+	font-size: 64px;
+	font-weight: 700;
+	line-height: 20px;
+	color:#f6f6f6;
+	float:left;
+}
+
+.point-4 blockquote{
+	
+	font-size: 14px;
+	line-height: 28px;
+	font-style: italic;
+	color:#b8b8b8;
+	margin-bottom: 30px;
+}
+
+.point-4 h5{
+	font-size:16px;
+	font-weight: 700;
+	margin-bottom: 13px;
+}
+
+.point-4 .quote-content p{
+	font-size: 14px !important;
+}
+
+.point-4 .quote-content{
+	overflow: hidden;
+}
+
+
+/* point 5
+========================================================
+*/
+
+.point-5{
+	margin-top: 120px;
+	background: url(../images/shape-03.svg) no-repeat center;
+	background-position: bottom;
+
+	
+}
+
+.point-5 .main-para{
+	width: 60%;
+}
+
+.point-5 .pricing-table{
+	
+	margin-top: 80px;
+	
+	background-position: bottom;
+	background-color: transparent;
+	position: relative;
+}
+
+.point-5 .pricing-table img{
+
+}
+
+.point-5 .pricing-table .table-cell{
+	
+	text-align: center;
+	width: 370px;
+	margin:auto;
+	float:left;
+	background-color: transparent;
+	border: 1px solid transparent;
+	margin-right: 27px;
+
+}
+
+.point-5 .pricing-table .table-cell:last-child{
+
+	margin-right: 0;
+	
+}
+.point-5 .pricing-table .premium {
+	
+}
+
+
+.point-5 .pricing-table .table-cell h2{
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 31px;
+	margin-bottom: 10px;
+}
+
+.point-5 .pricing-table .table-cell p{
+	font-size: 14px !important;
+}
+
+.point-5 .pricing-table .table-cell div{
+	height: 40px;
+	background-color: #f6f6f6;
+	font-family: 'Poppins', sans-serif;
+	line-height: 40px;
+	font-size: 14px;
+	font-weight: 700;
+	color:#bcbcbc;
+	margin:35px 0;
+}
+
+.point-5 .pricing-table .table-cell .table-para{
+	padding:0 20px 0 20px ;
+	font-size: 14px !important;
+	line-height: 28px !important;
+}
+.point-5 .pricing-table .table-cell h5{
+	padding-top: 30px;
+	margin-bottom: 100px;
+}
+
+.point-5 .pricing-table .table-cell h5 a{
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	color:#000;
+}
+
+.point-5 .pricing-table .premium div{
+	background-color: #66a900;
+	color:#fff;
+}
+
+.point-5 .pricing-table .premium h5 a {
+	color:#66a900;
+	text-decoration: underline;
+}

@@ -1,0 +1,221 @@
+.resume{
+	padding-top:18px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.resume h2{
+	padding:50px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color:#18242c;
+	font-size: 24px;
+}
+
+/* ===========================================================
+Point 
+================================================================*/
+
+/*                  year                        */
+
+.resume .point-wrap .year{
+padding:50px;
+background-color: #efefef;
+}
+
+.resume .point-wrap .year p{
+	text-align: center;
+	color:18242c;
+	line-height: 24px;
+	font-size: 18px;
+	text-transform: uppercase;
+	word-spacing: 9999rem;
+	
+}
+
+
+/*                  Point                        */
+.resume .point-wrap{
+	margin-bottom:3px;
+
+}
+
+.resume .point-wrap .point {
+	padding:30px 55px 47px 30px;
+	overflow: hidden;
+	background-color:#fafafa;
+}
+
+.resume .point-wrap .point .point-icon{
+	width: 36px;
+	height: 36px;
+	background-color: #45a528;
+	border-radius: 100%;
+	position: relative;
+}
+
+.resume .point-wrap .point .point-icon img{
+	position: absolute;
+	margin:auto;
+	left:0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+
+.resume .point-wrap .point h3{
+	font-size:24px;
+	color:#18242c;
+	margin-bottom: 23px;
+}
+
+.resume .point-wrap .point p{
+	font-size:16px;
+	color:#19252c;
+}
+
+
+/*                  floating year and point boxes                        */
+
+.resume .point-wrap .year{
+	float:left;
+	margin-right: 3px;
+	width: 158px;
+}
+
+.resume .point-wrap .point .point-icon{
+	float:left;
+	margin-right: 19px;
+}
+
+.text-wrap{
+	overflow: hidden;
+}
+
+ /* skills */
+
+ .skills  .graphical_skills{
+ 	background-color: #efefef;
+ 	margin-bottom: 5px;
+ 	width: 41%;
+ 	padding-left: 55px;
+ 	padding-right: 37px;
+ 	float:left;
+ 	height: 350px;
+}
+
+.skills  .programming_skills{
+ 	background-color: #efefef;
+ 	margin-bottom: 5px;
+ 	width: 41%;
+ 	padding-left: 55px;
+ 	padding-right: 37px;
+ 	float:right;
+ 	height: 350px;
+}
+
+
+
+.skills h3{
+	text-transform: uppercase;
+	padding:40px 0 50px 0;
+	font-style: 18px;
+	color:#18242c;
+}
+
+
+.skills p{
+	font-size: 16px;
+	color: #18242c;
+	padding-right: 25px;
+
+}
+
+.skills span{
+	font-size:16px;
+	color:#fff;
+	padding-left:15px;
+}
+
+.skills .scale-main{
+		width: 340px;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	
+}
+
+
+
+
+.scale-main .scale{
+	height: 21px;
+	border-radius: 12px;
+}
+
+.photoshop .scale{
+		background-color: #c16ed3;
+		width: 99%;
+		
+}
+
+
+.illustrator .scale{
+		background-color: #d84e4e;
+		width: 85%;
+		
+}
+
+.indesign .scale{
+		background-color: #f0b54d;
+		width: 70%;
+		
+}
+
+.coreldraw .scale{
+		background-color: #aaadad;
+		width: 55%;
+		
+}
+
+.wordpress .scale{
+		background-color: #44a5cd;
+		width: 99%;
+		
+}
+
+.php .scale{
+		background-color: #5fb3d6;
+		width: 50%;
+		
+}
+
+.html .scale{
+		background-color: #c16ed3;
+		width: 80%;
+		
+}
+
+.css .scale{
+		background-color: #bbcc55;
+		width: 70%;
+		
+}
+
+.mysql .scale{
+		background-color: #a8d324;
+		width: 60%;
+		
+}
+
+.javascript .scale{
+		background-color: #497cf0;
+		width: 49%;
+		
+}
+
+
+/* Floating skill boxes */
+
+.graphical_skills{
+	float: left;
+}

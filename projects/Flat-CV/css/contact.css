@@ -1,0 +1,123 @@
+.contact-page{
+	overflow: hidden;
+}
+
+/* ==============================================
+			MAP
+====================================================*/
+
+.contact-page .map{
+	
+	background: #f0ede5 url(../images/map-bg.jpg) no-repeat;
+
+	
+}
+
+.contact-page .map .area-name{
+	position: relative;	
+}
+
+.contact-page .map .area-name h5{
+	font-size: 15px;
+	color:#fff;
+	padding:18px 60px;
+	text-align: center;
+	background-color: rgba(255, 40, 1, 0.70);
+	position: absolute;
+	bottom:0px;
+	right:0px;
+}
+
+
+/* ==============================================
+			FORM
+====================================================*/
+
+.contact-page{
+	background-color: #fff;
+}
+
+.contact-wrap{
+	padding-left:34px; 
+}
+
+.contact-wrap h2{
+	font-size:24px;
+	padding:34px 0;
+	color:#18242c;
+}
+
+
+.contact-wrap label[for="name"],
+.contact-wrap label[for="email"],
+.contact-wrap label[for="message"]{
+	color:#18242c;
+	font-size:16px;
+}
+
+ .contact-wrap input[type="text"],
+ .contact-wrap input[type="email"]
+  {
+	border:solid 1px #f2f2f2;
+	background-color: #fafafa;
+	margin-top:15px;
+	padding:15px 0;
+	width: 328px;
+	
+}
+
+.contact-wrap input[type="submit"]{
+	font-size:16px;
+	text-transform: uppercase;
+	color:#fff;
+	background-color: #ff2801;
+	padding:13px 35px;
+	margin:25px 0 28px 0;
+	border:none;
+	cursor: pointer;
+}
+
+
+
+.name{
+	float:left;
+	margin-right: 13px;
+}
+
+.contact-wrap textarea{
+	border:solid 1px #f2f2f2;
+	background-color: #fafafa;
+	margin-top: 15px;
+	width: 672px;
+	height: 191px;
+	max-width: 672px;
+	padding:15px 0;
+}
+
+.contact-wrap .message{
+	margin-top:28px;
+}
+
+
+.contact-wrap{
+	float:left;
+}
+/* V card */
+
+.vcard{
+	padding-top:185px ;
+}
+
+.vcard h4{
+	font-size: 16px;
+	color:19252c;
+	text-align: center;	
+	margin-bottom: 30px;
+}
+
+.vcard img{
+	margin:auto;
+	max-height: 100%;
+	max-width: 100%;
+	display: block;
+}

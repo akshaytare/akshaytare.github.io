@@ -1,0 +1,177 @@
+
+body{
+	background-color: #19252c;
+}
+
+/* light 300
+	regular 400
+	semibold 600
+*/
+
+
+/* ===========================================================
+	Typography
+	===========================================================*/
+
+html{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+p,a{
+	font-weight: 400;
+}
+
+h1,h2,h3,h4{
+	font-weight: 600;
+}
+
+
+
+/* ===========================================================
+	Social Nav
+  =============================================================== */
+
+li{
+	list-style: none;
+}
+.main-wrap{
+	width: 1160px;
+	margin:auto;
+}
+
+.social{
+	padding: 37px 0;
+}
+
+.social li{
+	float:left;
+	margin-right: 30px;
+}
+
+.social li a{
+	text-decoration: none;
+	font-size: 18px;
+	color:#505f68;
+}
+
+/* ===========================================================
+	Main menu
+  =============================================================== */
+
+  .main-menu{
+  	float:left;
+  }
+
+  .main-menu li{
+  	width: 100px;
+  	height: 100px;
+  	position: relative;
+
+  }
+
+  .main-menu .user-pic{
+  	background-color: #c4c4c4;
+  }
+
+  .main-menu .bio{
+  	background-color: #45a528;
+  }
+
+  .main-menu .portf{
+  	background-color: #00a7d4;
+  }
+
+  .main-menu .contact{
+  	background-color: #ff2801;
+  }
+
+  .main-menu li img{
+  	position: absolute;
+  	margin:auto;
+  	top:0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  }
+
+  .main-footer{
+  	padding:34px 0 42px 0;
+  }
+
+  	.main-footer p{
+  		float:right;
+  		font-size: 12px;
+  		color:#505f68;
+  	}
+
+  	/* main menu triagle */
+
+  	.active .icon-triangle{
+  	width:0;
+	height:0;
+	border-top: solid 8px transparent;
+	border-bottom: solid 8px transparent;
+	border-right: solid 8px #fff;
+	position: absolute;
+	margin:auto;
+	right: 0;
+	top:0;
+	bottom:0;
+	
+  	}
+
+    .main-menu .active li{
+      padding:30px 0;
+    }
+/* ===========================================================
+	Page nav
+  =============================================================== */
+
+  .page-nav{
+  	padding:30px;
+  	background-color: #ffb100;
+  	overflow: hidden;	
+  }
+
+  .page-nav .link-1{
+   	float:left;
+  }
+
+  .page-nav .link-2{
+  	float:right;
+  }
+
+  .page-nav a{
+  	text-decoration: none;
+  	font-size: 16px;
+  	color:#18242c;
+  }
+
+/* ======================================================================
+	Page icon
+	========================================================================= */
+
+.page-icon-wrap{
+	position: relative;
+	
+}
+
+.page-icon {
+	width: 80px;
+	height: 80px;
+	background-color: #ffc540;
+	border-radius: 100%;
+	position: absolute;
+	left:50.65%;
+	bottom:-40px;
+}
+
+.page-icon img{
+	position: absolute;
+	margin:auto;
+	left:0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+
+}
